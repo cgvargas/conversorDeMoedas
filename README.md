@@ -1,3 +1,7 @@
+Aqui está a versão atualizada do README com as novas funcionalidades do sistema de conversão de moedas:
+
+---
+
 ![Conversor de Moedas](images/moedas.png)
 
 ## Descrição
@@ -14,7 +18,12 @@ O objetivo é desenvolver um Conversor de Moedas que ofereça interação textua
 - Manipulação de dados JSON
 - Filtro de moedas de interesse
 - Exibição de resultados aos usuários
-- Menu interativo com pelo menos 6 opções de conversão de moedas
+- Busca e exibição de moedas a partir do nome completo ou parte do nome
+- Normalização de nomes para facilitar a busca, removendo acentos e caracteres especiais
+- Mensagens informativas para casos em que a moeda não é encontrada
+- Histórico de Conversões
+- Suporte para Mais Moedas
+- Registros de Logs
 
 ## Estrutura do Projeto
 
@@ -71,7 +80,7 @@ Enum que representa diversas moedas e seus nomes completos.
 3. Execute a classe principal para iniciar o conversor de moedas.
 4. Siga as instruções no console para escolher as moedas e ver as taxas de conversão em tempo real.
 
-## Ferramentas Utilizada
+## Ferramentas Utilizadas
 
 ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
 ![Windows](https://img.shields.io/badge/Windows-000?style=for-the-badge&logo=windows&logoColor=2CA5E0)
@@ -108,7 +117,10 @@ Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICEN
 [![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/cgvinfo/)	
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/CGVARGAS)
 
-
 🎸Claudio G. Vargas
 
 Analista e Desenvolvedor de Sistemas 🍃
+
+---
+
+Se precisar de mais alguma coisa, sinta-se à vontade para perguntar!
