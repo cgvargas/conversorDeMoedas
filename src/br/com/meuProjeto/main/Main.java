@@ -43,10 +43,10 @@ public class Main {
             } else {
                 System.out.print("Informe a sigla da moeda corrente: ");
                 siglaMoeda1 = scanner.nextLine().trim();
+                // Verifica se o usuário deseja inserir o nome da moeda destino
+                scanner.nextLine(); // Limpa o buffer
             }
 
-            // Verifica se o usuário deseja inserir o nome da moeda destino
-            scanner.nextLine(); // Limpa o buffer
             System.out.print("\nDeseja inserir o nome da moeda destino? (S/N): ");
             resposta = scanner.nextLine().trim();
 
