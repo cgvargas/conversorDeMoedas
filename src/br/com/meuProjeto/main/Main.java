@@ -71,7 +71,7 @@ public class Main {
             System.out.println("\n=========================================");
             System.out.println("Resultado da Conversão:");
             System.out.println("=========================================");
-            System.out.println(consultaMoeda.toString());
+            System.out.println(consultaMoeda);
 
         }
     }
