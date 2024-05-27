@@ -1,6 +1,8 @@
 
 # Conversor de Moedas
 
+[Conversor de Moedas](images/moedas.png)
+
 ## Descrição
 
 Neste emocionante desafio de programação, somos convidados a construir um Conversor de Moedas em Java. O projeto envolve fazer requisições a uma API de taxas de câmbio, manipular dados JSON, e filtrar e exibir as moedas de interesse. A experiência proporcionará uma oportunidade prática no desenvolvimento Java, incluindo a interação textual com os usuários via console.
