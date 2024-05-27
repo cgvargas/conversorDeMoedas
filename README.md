@@ -1,7 +1,7 @@
 
 # Conversor de Moedas
 
-[Conversor de Moedas](images/moedas.png)
+![Conversor de Moedas](images/moedas.png)
 
 ## Descrição
 
