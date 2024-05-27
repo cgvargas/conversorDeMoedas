@@ -67,6 +67,16 @@ public class ConsultaMoeda {
     }
 
     /**
+     * Retorna o nome da moeda a partir da sigla.
+     *
+     * @param sigla A sigla da moeda.
+     * @return O nome da moeda correspondente.
+     */
+    private String getNomeMoeda(String sigla) {
+        return Moedas.valueOf(sigla).getNome();
+    }
+
+    /**
      * Retorna uma representação em string da consulta de moeda.
      *
      * @return Uma string formatada com as informações da moeda corrente, moeda de destino,
@@ -75,8 +85,8 @@ public class ConsultaMoeda {
     @Override
     public String toString() {
         try {
-            String moedaCorrenteNome = Moedas.valueOf(moeda1).getNome();
-            String moedaDestinoNome = Moedas.valueOf(moeda2).getNome();
+            String moedaCorrenteNome = getNomeMoeda(moeda1);
+            String moedaDestinoNome = getNomeMoeda(moeda2);
             String valorCorrente = valor + " " + moedaCorrenteNome;
             String valorConvertido = buscaMoeda() + " " + moedaDestinoNome;
 
@@ -86,6 +96,22 @@ public class ConsultaMoeda {
                     "Valor convertido: " + valorConvertido;
         } catch (IOException | InterruptedException e) {
             return "Erro ao realizar a conversão de moeda: " + e.getMessage();
+        }
+    }
+
+    public String getMoeda1Nome() {
+        return getNomeMoeda(moeda1);
+    }
+
+    public String getMoeda2Nome() {
+        return getNomeMoeda(moeda2);
+    }
+
+    public double getValorConvertido() {
+        try {
+            return buscaMoeda();
+        } catch (IOException | InterruptedException e) {
+            throw new RuntimeException("Erro ao buscar o valor convertido: " + e.getMessage());
         }
     }
 }

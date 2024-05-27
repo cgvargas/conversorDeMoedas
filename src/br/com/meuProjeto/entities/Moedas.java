@@ -222,12 +222,12 @@ public enum Moedas {
         }
 
         if (!siglasEncontradas.isEmpty()) {
-            System.out.println("Não foi possível encontrar a moeda correspondente. \nMoedas encontradas:");
+            System.out.println("Moedas encontradas:");
             for (String sigla : siglasEncontradas) {
                 System.out.println(sigla + " - " + Moedas.valueOf(sigla).getNome());
             }
         } else {
-            System.out.println("Não foi possível encontrar a moeda correspondente. Por favor, insira manualmente a sigla da moeda corrente.");
+            System.out.println("Não foi possível encontrar a moeda correspondente. \nPor favor, insira manualmente a sigla da moeda corrente.");
         }
 
         return null;
