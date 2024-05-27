@@ -1,7 +1,3 @@
-Aqui está a versão atualizada do README com as novas funcionalidades do sistema de conversão de moedas:
-
----
-
 ![Conversor de Moedas](images/moedas.png)
 
 ## Descrição
@@ -120,7 +116,3 @@ Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICEN
 🎸Claudio G. Vargas
 
 Analista e Desenvolvedor de Sistemas 🍃
-
----
-
-Se precisar de mais alguma coisa, sinta-se à vontade para perguntar!
